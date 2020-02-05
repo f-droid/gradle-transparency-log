@@ -14,4 +14,4 @@ This can also be used as a basic JSON API by getting the JSON files via the raw 
 
 * [all.json](https://gitlab.com/fdroid/gradle-transparency-log/-/raw/master/all.json) - cached version of https://services.gradle.org/versions/all
 * [checksums.json](https://gitlab.com/fdroid/gradle-transparency-log/-/raw/master/checksums.json) - a simple dictionary of download URLs and matching SHA-256 checksums
-* [status_codes.json](https://gitlab.com/fdroid/gradle-transparency-log/-/blob/master/status_codes.json) - the HTTP Status Codes of the last download attempt of this process
+* [status_codes.json](https://gitlab.com/fdroid/gradle-transparency-log/-/raw/master/status_codes.json) - the HTTP Status Codes of the last download attempt of this process

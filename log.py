@@ -44,7 +44,7 @@ for i in data:
         status_codes.append([url, r.status_code])
         if r.status_code == 200:
             sha256 = r.text.strip().lower()
-            with open(os.path.basename(url), 'w') as fp:
+            with open(os.path.join('sha256', os.path.basename(url)), 'w') as fp:
                 fp.write(sha256)
             checksums[url[:-7]] = sha256
         write_status_codes(status_codes)
