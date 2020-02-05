@@ -3,7 +3,7 @@ log:
   image: debian:stable
   variables:
     SSH_KEY: /root/.ssh/id_ed25519
-    GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i $SSH_KEY"
+    GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"
   script:
     - apt-get update
     - apt-get -qy install --no-install-recommends git python3-requests ssh
@@ -15,6 +15,7 @@ log:
     - git add *.sha256 *.json
     - git commit *.sha256 *.json -m "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0
     - mkdir -pvm 0700 $(dirname $SSH_KEY)
+    - cp .known_hosts $(dirname $SSH_KEY)/known_hosts
     - echo $DEPLOY_KEY | base64 --decode > $SSH_KEY
     - chmod 0400 $SSH_KEY
     - git remote set-url --push origin "git@${CI_SERVER_HOST}:${CI_PROJECT_PATH}.git"
