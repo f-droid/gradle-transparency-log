@@ -4,9 +4,21 @@ log:
   variables:
     SSH_KEY: /root/.ssh/id_ed25519
     GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"
-  script:
+    DEBIAN_FRONTEND: noninteractive
+    LANG: C.UTF-8
+  before_script:
+    - echo Etc/UTC > /etc/timezone
+    - echo 'APT::Install-Recommends "0";'
+           'APT::Install-Suggests "0";'
+           'APT::Acquire::Retries "20";'
+           'APT::Get::Assume-Yes "true";'
+           'Dpkg::Use-Pty "0";'
+           'quiet "1";'
+        >> /etc/apt/apt.conf.d/99gitlab
     - apt-get update
-    - apt-get -qy install --no-install-recommends git python3-requests ssh
+    - apt-get dist-upgrade
+  script:
+    - apt-get install git openssh-client python3-requests
     - ./log.py
     - git diff
     - git config user.name "$CI_PIPELINE_ID/$CI_JOB_ID"
