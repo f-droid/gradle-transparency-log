@@ -23,7 +23,7 @@ log:
     - git diff
     - git config user.name "$CI_PIPELINE_ID/$CI_JOB_ID"
     - git config user.email $CI_PROJECT_PATH@f-droid.org
-    - git checkout -b autocommit
+    - git checkout -B autocommit
     - git add sha256/*.sha256 *.json
     - git commit sha256/*.sha256 *.json -m "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0
     - mkdir -pvm 0700 $(dirname $SSH_KEY)
