@@ -585,6 +585,8 @@
   "https://services.gradle.org/distributions/gradle-6.1.1-all.zip": "10065868c78f1207afb3a92176f99a37d753a513dff453abb6b5cceda4058cda",
   "https://services.gradle.org/distributions/gradle-6.1.1-bin.zip": "9d94e6e4a28ad328072ef6e56bce79a810494ae756751fdcedffdeaf27c093b1",
   "https://services.gradle.org/distributions/gradle-6.1.1-wrapper.jar": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6",
+  "https://services.gradle.org/distributions/gradle-6.2-all.zip": "f016e66d88c2f9adb5b6e7dff43a363b8c2632f18b4ad6f365f49da34dd57db8",
+  "https://services.gradle.org/distributions/gradle-6.2-bin.zip": "b93a5f30d01195ec201e240f029c8b42d59c24086b8d1864112c83558e23cf8a",
   "https://services.gradle.org/distributions/gradle-6.2-rc-1-all.zip": "fe2f66875706cc4afcbec21ca55ab45972c499128d9a4c29079badafba61c61f",
   "https://services.gradle.org/distributions/gradle-6.2-rc-1-bin.zip": "4e40b36d619f5e7a9eb9a97d6652c062a13df828995be79137b7215c062b9139",
   "https://services.gradle.org/distributions/gradle-6.2-rc-1-wrapper.jar": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6",
@@ -593,5 +595,6 @@
   "https://services.gradle.org/distributions/gradle-6.2-rc-2-wrapper.jar": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6",
   "https://services.gradle.org/distributions/gradle-6.2-rc-3-all.zip": "369510e50cc3729972c41ec61134a5c8169dca5273bab7aeedd652e5c2671a13",
   "https://services.gradle.org/distributions/gradle-6.2-rc-3-bin.zip": "3e8db98ac4398938ffcdb95241518eadf8858cee65f951f5f75e22cf5efb4cc2",
-  "https://services.gradle.org/distributions/gradle-6.2-rc-3-wrapper.jar": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6"
+  "https://services.gradle.org/distributions/gradle-6.2-rc-3-wrapper.jar": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6",
+  "https://services.gradle.org/distributions/gradle-6.2-wrapper.jar": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6"
 }
