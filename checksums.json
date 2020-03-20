@@ -455,6 +455,7 @@
   "https://services.gradle.org/distributions/gradle-5.0-rc-4-bin.zip": "414d6ffa6a4ec14355eb78b7577576ab63d07658ac640ec41b5e63b573400de0",
   "https://services.gradle.org/distributions/gradle-5.0-rc-5-all.zip": "d23e03691c33a007c80c9dc1a0f613f02281433cccfbfb8aaf446808f2c45f33",
   "https://services.gradle.org/distributions/gradle-5.0-rc-5-bin.zip": "369ff446973f5309c550b9ef543d5cdf45470a0db20e3f6c00dcca122faa045d",
+  "https://services.gradle.org/distributions/gradle-5.0-wrapper.jar": "f1a597a1f2b23089deec11d5b924d074f9e4ed810f2093be7021ded01c8073ad",
   "https://services.gradle.org/distributions/gradle-5.1-all.zip": "7b8a8b9cce0406733d2d3fab3874386c530657c73c3f4e9a3837d081e26060d8",
   "https://services.gradle.org/distributions/gradle-5.1-bin.zip": "7506638a380092a0406364c79d6c87d03d23017fc25a5770379d1ce23c3fcd4d",
   "https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip": "50672ea3f18f29641f8a03fdc55ce26acbcccb14cfa2ab208319f8c195620465",
