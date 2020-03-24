@@ -1,6 +1,21 @@
 [
   {
-    "activeRc": true,
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20200324195207+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-6.3-bin.zip.sha256",
+    "current": true,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-6.3-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "6.3",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-6.3-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
     "broken": false,
     "buildTime": "20200320053945+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.3-rc-4-bin.zip.sha256",
@@ -64,7 +79,7 @@
     "broken": false,
     "buildTime": "20200304084931+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.2.2-bin.zip.sha256",
-    "current": true,
+    "current": false,
     "downloadUrl": "https://services.gradle.org/distributions/gradle-6.2.2-bin.zip",
     "milestoneFor": "",
     "nightly": false,
