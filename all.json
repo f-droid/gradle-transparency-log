@@ -2,6 +2,21 @@
   {
     "activeRc": true,
     "broken": false,
+    "buildTime": "20200428190039+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-6.4-rc-3-bin.zip.sha256",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-6.4-rc-3-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "6.4",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "6.4-rc-3",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-6.4-rc-3-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
+    "broken": false,
     "buildTime": "20200422163205+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.4-rc-2-bin.zip.sha256",
     "current": false,
