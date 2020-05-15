@@ -1,5 +1,5 @@
 
-log:
+pages:
   image: debian:stable
   variables:
     SSH_KEY: /root/.ssh/id_ed25519
@@ -32,3 +32,8 @@ log:
     - chmod 0400 $SSH_KEY
     - git remote set-url --push origin "git@${CI_SERVER_HOST}:${CI_PROJECT_PATH}.git"
     - git push origin autocommit:$CI_COMMIT_REF_NAME
+    - test -d public || mkdir public
+    - cp *.json public/
+  artifacts:
+    paths:
+      - public
