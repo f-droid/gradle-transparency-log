@@ -3820,7 +3820,7 @@
     "packageSha256": "85a3b4ecd0baf504526cd201e08cc839fafe4e3e3f9f67df03e3b9cd523b79a0",
     "packageSize": 4242460,
     "sha256": "51d6ef32a8f2a4b128d6930716a34f0840111b521860c034682c61dd0c700793",
-    "url": "https://deb.debian.org/debian/pool/main/g/gradle/libgradle-core-java_4.4.1-6_all.deb",
+    "url": "http://deb.debian.org/debian/pool/main/g/gradle/libgradle-core-java_4.4.1-6_all.deb",
     "version": "4.4.1-6"
   }
 ]
