@@ -18,6 +18,18 @@ def write_json(l, f):
     with open(f, 'w') as fp:
         json.dump(l, fp, indent=2, sort_keys=True)
 
+def add_checksums_entry(checksums, k, sha256):
+    if k not in checksums:
+        checksums[k] = []
+    exists = False
+    for entry in checksums[k]:
+        if sha256 in entry.values():
+            exists = True
+            break
+    if not exists:
+        checksums[k].append({'sha256': sha256})
+
+
 status_codes = []
 url = 'https://services.gradle.org/versions/all'
 r = requests.get(url)
@@ -26,7 +38,12 @@ if r.status_code != 200:
     write_status_codes(status_codes)
     sys.exit()
 data = []
+
 checksums = dict()
+if os.path.exists('checksums.json'):
+    with open('checksums.json') as fp:
+        checksums = json.load(fp)
+
 for i in r.json():
     if i.get('snapshot') or i.get('nightly') or i.get('releaseNightly'):
         continue
@@ -50,7 +67,7 @@ for i in data:
             sha256 = r.text.strip().lower()
             with open(os.path.join('sha256', os.path.basename(url)), 'w') as fp:
                 fp.write(sha256)
-            checksums[url[:-7]] = sha256
+            add_checksums_entry(checksums, url[:-7], sha256)
         write_status_codes(status_codes)
     write_json(checksums, 'checksums.json')
 
@@ -77,7 +94,7 @@ if package:
             sha256_hasher.update(content)
             sha256 = binascii.hexlify(sha256_hasher.digest()).decode()
             if listed_md5 == md5:
-                checksums[os.path.basename(packageFileName) + ':' + filepath] = sha256
+                add_checksums_entry(checksums, os.path.basename(packageFileName) + ':' + filepath, sha256)
                 d['arch'] = package.architecture()
                 d['md5'] = md5
                 d['sha256'] = sha256
