@@ -3304,6 +3304,21 @@
       "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637"
     }
   ],
+  "https://services.gradle.org/distributions/gradle-6.6-rc-1-all.zip": [
+    {
+      "sha256": "5cd76fb69f8c350558acdd8f442487d44d5f75ef5fc16409835ebd2599e9207a"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-6.6-rc-1-bin.zip": [
+    {
+      "sha256": "2253ab246976353b225002ecba04859b5dbad0620f57052ef057fdcfcb888c5c"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-6.6-rc-1-wrapper.jar": [
+    {
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637"
+    }
+  ],
   "libgradle-core-java_4.4.1-6_all.deb:usr/share/java/gradle-wrapper-4.4.1.jar": [
     {
       "sha256": "51d6ef32a8f2a4b128d6930716a34f0840111b521860c034682c61dd0c700793"
