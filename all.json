@@ -2,6 +2,21 @@
   {
     "activeRc": false,
     "broken": false,
+    "buildTime": "20201014161312+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-6.7-bin.zip.sha256",
+    "current": true,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-6.7-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "6.7",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-6.7-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
+    "broken": false,
     "buildTime": "20201013065906+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.8-milestone-1-bin.zip.sha256",
     "current": false,
@@ -15,7 +30,7 @@
     "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-6.8-milestone-1-wrapper.jar.sha256"
   },
   {
-    "activeRc": true,
+    "activeRc": false,
     "broken": false,
     "buildTime": "20201012190940+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.7-rc-5-bin.zip.sha256",
@@ -94,7 +109,7 @@
     "broken": false,
     "buildTime": "20200825162912+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.6.1-bin.zip.sha256",
-    "current": true,
+    "current": false,
     "downloadUrl": "https://services.gradle.org/distributions/gradle-6.6.1-bin.zip",
     "milestoneFor": "",
     "nightly": false,
