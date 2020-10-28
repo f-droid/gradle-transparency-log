@@ -2,6 +2,21 @@
   {
     "activeRc": false,
     "broken": false,
+    "buildTime": "20201028055518+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-6.8-milestone-2-bin.zip.sha256",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-6.8-milestone-2-bin.zip",
+    "milestoneFor": "6.8",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "6.8-milestone-2",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-6.8-milestone-2-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
+    "broken": false,
     "buildTime": "20201014161312+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-6.7-bin.zip.sha256",
     "current": true,
