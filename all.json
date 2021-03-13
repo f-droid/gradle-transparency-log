@@ -2,6 +2,21 @@
   {
     "activeRc": false,
     "broken": false,
+    "buildTime": "20210313010321+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-7.0-milestone-3-bin.zip.sha256",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-7.0-milestone-3-bin.zip",
+    "milestoneFor": "7.0",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "7.0-milestone-3",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-7.0-milestone-3-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
+    "broken": false,
     "buildTime": "20210223230254+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-7.0-milestone-2-bin.zip.sha256",
     "current": false,
