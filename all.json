@@ -1,6 +1,21 @@
 [
   {
-    "activeRc": true,
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20210614144726+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-7.1-bin.zip.sha256",
+    "current": true,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-7.1-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "7.1",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-7.1-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
     "broken": false,
     "buildTime": "20210608153520+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-7.1-rc-2-bin.zip.sha256",
@@ -34,7 +49,7 @@
     "broken": false,
     "buildTime": "20210514120231+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-7.0.2-bin.zip.sha256",
-    "current": true,
+    "current": false,
     "downloadUrl": "https://services.gradle.org/distributions/gradle-7.0.2-bin.zip",
     "milestoneFor": "",
     "nightly": false,

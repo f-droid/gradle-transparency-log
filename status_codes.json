@@ -3088,6 +3088,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-7.1-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-7.1-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-7.1-rc-1-all.zip.sha256",
     200
   ],
@@ -3109,6 +3117,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-7.1-rc-2-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-7.1-wrapper.jar.sha256",
     200
   ],
   [
