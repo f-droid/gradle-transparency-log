@@ -4563,14 +4563,14 @@
   {
     "arch": "amd64",
     "filepath": "usr/share/java/gradle-wrapper-4.4.1.jar",
-    "md5": "a90eedb9c15e40ada9fa46c59934e5ba",
-    "packageFileName": "libgradle-core-java_4.4.1-6_all.deb",
-    "packageMd5": "3ca8ae20b3e4e22a6a2b9b3da6eb7044",
+    "md5": "e5886512b80191f9be9332552a936d1f",
+    "packageFileName": "libgradle-core-java_4.4.1-13_all.deb",
+    "packageMd5": "4c10745f789b3ecceedcc24eb9e34352",
     "packageName": "libgradle-core-java",
-    "packageSha256": "85a3b4ecd0baf504526cd201e08cc839fafe4e3e3f9f67df03e3b9cd523b79a0",
-    "packageSize": 4242460,
-    "sha256": "51d6ef32a8f2a4b128d6930716a34f0840111b521860c034682c61dd0c700793",
-    "url": "http://deb.debian.org/debian/pool/main/g/gradle/libgradle-core-java_4.4.1-6_all.deb",
-    "version": "4.4.1-6"
+    "packageSha256": "e1b3d521621a62a877af5fb363dc3e71ac8ba3a12ce3209c7098358b59729ef5",
+    "packageSize": 4246240,
+    "sha256": "fa8804b017a549d33ba270475fea86d46218c73cc47b32008ada4f8380e0f60b",
+    "url": "http://deb.debian.org/debian/pool/main/g/gradle/libgradle-core-java_4.4.1-13_all.deb",
+    "version": "4.4.1-13"
   }
 ]
