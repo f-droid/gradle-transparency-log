@@ -3304,6 +3304,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-7.3.3-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-7.3.3-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-7.3.3-rc-1-all.zip.sha256",
     200
   ],
@@ -3313,6 +3321,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-7.3.3-rc-1-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-7.3.3-wrapper.jar.sha256",
     200
   ],
   [
