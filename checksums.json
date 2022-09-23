@@ -4354,6 +4354,36 @@
       "sha256": "91a239400bb638f36a1795d8fdf7939d532cdc7d794d1119b7261aac158b1e60"
     }
   ],
+  "https://services.gradle.org/distributions/gradle-7.6-milestone-1-all.zip": [
+    {
+      "sha256": "0bd4223be3ec440bed09f8b7118f6db04ad8ec1972710c0e7afc5e965527c833"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-7.6-milestone-1-bin.zip": [
+    {
+      "sha256": "9ca7bc6d09c52b365cc61f4ef9e0410f79f6122bc126786c76847b987a4b7cbe"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-7.6-milestone-1-wrapper.jar": [
+    {
+      "sha256": "c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.0-milestone-1-all.zip": [
+    {
+      "sha256": "51968c56250a5b61f23f3551762f300f53075968bae81ce45f8b2e1d3c7c734a"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.0-milestone-1-bin.zip": [
+    {
+      "sha256": "573715e1f25829fc3c2ad2e97578e9f8433050da87ddab5413e587663a621ebe"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.0-milestone-1-wrapper.jar": [
+    {
+      "sha256": "c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a"
+    }
+  ],
   "libgradle-core-java_4.4.1-13_all.deb:usr/share/java/gradle-wrapper-4.4.1.jar": [
     {
       "sha256": "fa8804b017a549d33ba270475fea86d46218c73cc47b32008ada4f8380e0f60b"
