@@ -2633,7 +2633,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.6-milestone-2-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.6-milestone-2-wrapper.jar.sha256",
@@ -2653,7 +2653,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.6-rc-1-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.6-rc-1-bin.zip.sha256",
