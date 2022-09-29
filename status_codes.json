@@ -1,7 +1,7 @@
 [
   [
     "https://services.gradle.org/distributions/gradle-0.7-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-0.7-bin.zip.sha256",
@@ -33,7 +33,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-0.9-rc-2-all.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-0.9-rc-2-bin.zip.sha256",
@@ -161,7 +161,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-1.0-rc-2-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-1.0-rc-2-bin.zip.sha256",
@@ -193,7 +193,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-1.1-rc-1-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-1.1-rc-2-all.zip.sha256",
@@ -581,7 +581,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.1-rc-3-bin.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.1-rc-4-all.zip.sha256",
@@ -897,7 +897,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.4-rc-1-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.4-rc-1-bin.zip.sha256",
@@ -905,7 +905,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.4-rc-2-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.4-rc-2-bin.zip.sha256",
@@ -1757,7 +1757,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.9-rc-2-all.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.9-rc-2-bin.zip.sha256",
@@ -1861,7 +1861,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-5.1-rc-2-all.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-5.1-rc-2-bin.zip.sha256",
@@ -3365,7 +3365,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-7.4.1-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-7.4.1-bin.zip.sha256",
