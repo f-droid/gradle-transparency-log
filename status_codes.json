@@ -533,7 +533,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.0-rc-1-all.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.0-rc-1-bin.zip.sha256",
@@ -2077,7 +2077,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-5.5-rc-4-all.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-5.5-rc-4-bin.zip.sha256",
@@ -2381,7 +2381,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.2-rc-3-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.2-rc-3-wrapper.jar.sha256",
@@ -2585,7 +2585,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.5-rc-1-bin.zip.sha256",
-    200
+    522
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.5-rc-1-wrapper.jar.sha256",
