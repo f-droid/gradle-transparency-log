@@ -2825,7 +2825,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-bin.zip.sha256",
@@ -2893,7 +2893,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-rc-4-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-rc-4-bin.zip.sha256",
