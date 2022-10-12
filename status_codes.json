@@ -665,7 +665,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.12-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.12-rc-1-all.zip.sha256",
@@ -709,7 +709,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.14-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.14-bin.zip.sha256",
@@ -1077,7 +1077,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-3.0-rc-1-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-3.0-rc-2-all.zip.sha256",
@@ -1305,7 +1305,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.0.1-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.0.1-bin.zip.sha256",
@@ -1333,7 +1333,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.1-milestone-1-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.1-rc-1-all.zip.sha256",
@@ -1385,7 +1385,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.10-rc-3-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.10-wrapper.jar.sha256",
@@ -1441,7 +1441,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.2-rc-1-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.2-rc-2-all.zip.sha256",
@@ -1473,7 +1473,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.3-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.3-rc-1-all.zip.sha256",
@@ -1485,7 +1485,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.3-rc-2-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.3-rc-2-bin.zip.sha256",
@@ -1569,7 +1569,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.4-rc-5-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.4-rc-6-all.zip.sha256",
@@ -1609,7 +1609,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.5-rc-1-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.5-rc-2-all.zip.sha256",
@@ -1641,7 +1641,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.6-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.6-rc-1-all.zip.sha256",
@@ -1681,7 +1681,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.7-rc-2-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.7-rc-2-bin.zip.sha256",
@@ -1709,11 +1709,11 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.8-rc-2-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.8-rc-2-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.8-rc-3-all.zip.sha256",
@@ -1729,7 +1729,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.8.1-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-4.8.1-bin.zip.sha256",
@@ -2741,7 +2741,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.7-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.7-bin.zip.sha256",
@@ -2825,7 +2825,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-bin.zip.sha256",
@@ -2909,7 +2909,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-rc-5-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.8-rc-5-wrapper.jar.sha256",
@@ -2965,11 +2965,11 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.9-rc-1-all.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.9-rc-1-bin.zip.sha256",
-    522
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.9-rc-1-wrapper.jar.sha256",
