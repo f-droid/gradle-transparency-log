@@ -3520,6 +3520,18 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-7.6-rc-3-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-7.6-rc-3-bin.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-7.6-rc-3-wrapper.jar.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.0-milestone-1-all.zip.sha256",
     200
   ],
