@@ -1,4 +1,3 @@
-
 pages:
   image: debian:bullseye-slim
   variables:
@@ -28,7 +27,7 @@ pages:
     - git config user.email $CI_PROJECT_PATH@f-droid.org
     - git checkout -B autocommit
     - git add sha256/*.sha256 *.json
-    - git commit sha256/*.sha256 *.json -m "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0
+    - git commit sha256/*.sha256 *.json -m "From $CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0
     - mkdir -pvm 0700 $(dirname $SSH_KEY)
     - cp .known_hosts $(dirname $SSH_KEY)/known_hosts
     - echo $DEPLOY_KEY | base64 --decode > $SSH_KEY
