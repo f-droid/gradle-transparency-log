@@ -1241,7 +1241,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-3.5-rc-3-all.zip.sha256",
-    500
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-3.5-rc-3-bin.zip.sha256",
