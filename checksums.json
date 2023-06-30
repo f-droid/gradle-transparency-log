@@ -4489,6 +4489,21 @@
       "sha256": "c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a"
     }
   ],
+  "https://services.gradle.org/distributions/gradle-7.6.2-all.zip": [
+    {
+      "sha256": "5861dcc093556fef71cdde8cbae9887be70a8bf40e0f5856b61181ae92dccf33"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-7.6.2-bin.zip": [
+    {
+      "sha256": "a01b6587e15fe7ed120a0ee299c25982a1eee045abd6a9dd5e216b2f628ef9ac"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-7.6.2-wrapper.jar": [
+    {
+      "sha256": "14dfa961b6704bb3decdea06502781edaa796a82e6da41cd2e1962b14fbe21a3"
+    }
+  ],
   "https://services.gradle.org/distributions/gradle-8.0-all.zip": [
     {
       "sha256": "f30b29580fe11719087d698da23f3b0f0d04031d8995f7dd8275a31f7674dc01"
@@ -4789,6 +4804,16 @@
       "sha256": "ed2c26eba7cfb93cc2b7785d05e534f07b5b48b5e7fc941921cd098628abca58"
     }
   ],
+  "https://services.gradle.org/distributions/gradle-8.2-all.zip": [
+    {
+      "sha256": "5022b0b25fe182b0e50867e77f484501dba44feeea88f5c1f13b6b4660463640"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.2-bin.zip": [
+    {
+      "sha256": "38f66cd6eef217b4c35855bb11ea4e9fbc53594ccccb5fb82dfd317ef8c2c5a3"
+    }
+  ],
   "https://services.gradle.org/distributions/gradle-8.2-milestone-1-all.zip": [
     {
       "sha256": "56fc88681c7e11225850b8f8727060abbbbbc0b6d56f91afa4c896e195c6ae27"
@@ -4845,6 +4870,11 @@
     }
   ],
   "https://services.gradle.org/distributions/gradle-8.2-rc-3-wrapper.jar": [
+    {
+      "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.2-wrapper.jar": [
     {
       "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4"
     }
