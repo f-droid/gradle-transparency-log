@@ -3904,6 +3904,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.3-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.3-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.3-rc-1-all.zip.sha256",
     200
   ],
@@ -3949,6 +3957,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.3-rc-4-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.3-wrapper.jar.sha256",
     200
   ],
   [
