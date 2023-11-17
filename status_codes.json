@@ -4048,6 +4048,18 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.5-rc-3-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.5-rc-3-bin.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.5-rc-3-wrapper.jar.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/versions/all",
     200
   ]
