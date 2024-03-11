@@ -2,6 +2,21 @@
   {
     "activeRc": true,
     "broken": false,
+    "buildTime": "20240311171310+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-8.7-rc-3-bin.zip.sha256",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-8.7-rc-3-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "8.7",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "8.7-rc-3",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-8.7-rc-3-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
+    "broken": false,
     "buildTime": "20240229125337+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.7-rc-2-bin.zip.sha256",
     "current": false,
