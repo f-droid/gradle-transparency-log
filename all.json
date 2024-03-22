@@ -1,6 +1,21 @@
 [
   {
-    "activeRc": true,
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20240322155246+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-8.7-bin.zip.sha256",
+    "current": true,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-8.7-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "8.7",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-8.7-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
     "broken": false,
     "buildTime": "20240320140334+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.7-rc-4-bin.zip.sha256",
@@ -79,7 +94,7 @@
     "broken": false,
     "buildTime": "20240202164716+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.6-bin.zip.sha256",
-    "current": true,
+    "current": false,
     "downloadUrl": "https://services.gradle.org/distributions/gradle-8.6-bin.zip",
     "milestoneFor": "",
     "nightly": false,
