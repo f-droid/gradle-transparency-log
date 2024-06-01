@@ -4228,6 +4228,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.8-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.8-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.8-rc-1-all.zip.sha256",
     200
   ],
@@ -4249,6 +4257,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.8-rc-2-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.8-wrapper.jar.sha256",
     200
   ],
   [
