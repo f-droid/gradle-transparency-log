@@ -4264,6 +4264,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.9-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.9-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.9-rc-1-all.zip.sha256",
     200
   ],
@@ -4285,6 +4293,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.9-rc-2-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.9-wrapper.jar.sha256",
     200
   ],
   [

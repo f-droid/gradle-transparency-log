@@ -1,6 +1,21 @@
 [
   {
-    "activeRc": true,
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20240711143741+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-8.9-bin.zip.sha256",
+    "current": true,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-8.9-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "8.9",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-8.9-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
     "broken": false,
     "buildTime": "20240705153825+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.9-rc-2-bin.zip.sha256",
@@ -34,7 +49,7 @@
     "broken": false,
     "buildTime": "20240531214656+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.8-bin.zip.sha256",
-    "current": true,
+    "current": false,
     "downloadUrl": "https://services.gradle.org/distributions/gradle-8.8-bin.zip",
     "milestoneFor": "",
     "nightly": false,
