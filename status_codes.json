@@ -3916,6 +3916,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.11-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.11-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.11-milestone-1-all.zip.sha256",
     200
   ],
@@ -3961,6 +3969,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.11-rc-3-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.11-wrapper.jar.sha256",
     200
   ],
   [
