@@ -3297,7 +3297,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-7.3-rc-5-wrapper.jar.sha256",
-    500
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-7.3-wrapper.jar.sha256",
@@ -3661,7 +3661,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.0-milestone-4-all.zip.sha256",
-    500
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.0-milestone-4-bin.zip.sha256",
