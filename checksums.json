@@ -5134,6 +5134,21 @@
       "sha256": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
     }
   ],
+  "https://services.gradle.org/distributions/gradle-8.13-rc-2-all.zip": [
+    {
+      "sha256": "88850dc365eecbcfe61d534be4ecca28881decc5171abdd8b8bb5cd88616f101"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.13-rc-2-bin.zip": [
+    {
+      "sha256": "264353f17a13391626fc8d0e86ae8023f30ea334a470caae0cfee02fe6cd1f3d"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.13-rc-2-wrapper.jar": [
+    {
+      "sha256": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
+    }
+  ],
   "https://services.gradle.org/distributions/gradle-8.14-milestone-1-all.zip": [
     {
       "sha256": "9d2867e332ae4db161943bc72c99fa4e69949e4ba6cc4e68ff0e2bd9c32ba8cf"
@@ -5145,6 +5160,21 @@
     }
   ],
   "https://services.gradle.org/distributions/gradle-8.14-milestone-1-wrapper.jar": [
+    {
+      "sha256": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.14-milestone-2-all.zip": [
+    {
+      "sha256": "a1ed9eae7523cd4db028721e31544b54cd780f9af0b428bf86368bab43117aec"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.14-milestone-2-bin.zip": [
+    {
+      "sha256": "2db4c39174c3dc0ced756b60b2b8d151eb0d12b65e539c91ac7f7d36b7e7dd2d"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-8.14-milestone-2-wrapper.jar": [
     {
       "sha256": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
     }
