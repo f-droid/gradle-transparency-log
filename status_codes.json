@@ -4048,6 +4048,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.13-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.13-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.13-milestone-1-all.zip.sha256",
     200
   ],
@@ -4105,6 +4113,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-8.13-rc-2-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.13-wrapper.jar.sha256",
     200
   ],
   [
