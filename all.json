@@ -1,5 +1,20 @@
 [
   {
+    "activeRc": true,
+    "broken": false,
+    "buildTime": "20250423120032+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-8.14-rc-3-bin.zip.sha256",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-8.14-rc-3-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "8.14",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "8.14-rc-3",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-8.14-rc-3-wrapper.jar.sha256"
+  },
+  {
     "activeRc": false,
     "broken": false,
     "buildTime": "20250422030543+0000",
@@ -15,7 +30,7 @@
     "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-9.0-milestone-3-wrapper.jar.sha256"
   },
   {
-    "activeRc": true,
+    "activeRc": false,
     "broken": false,
     "buildTime": "20250417124738+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.14-rc-2-bin.zip.sha256",
