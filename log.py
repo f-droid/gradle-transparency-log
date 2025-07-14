@@ -109,3 +109,8 @@ if package:
                 data.append(d)
     write_json(data, 'all.json')
     write_json(checksums, 'checksums.json')
+    # clean up to avoid it being included in git auto-committing
+    try:
+        os.remove(packageFileName)
+    except Exception as e:
+        print(packageFileName, e)
