@@ -1,8 +1,13 @@
-pages:
-  image: debian:bullseye-slim
+---
+image: debian:trixie-slim
+
+stages:
+  - lint
+  - test  # default for jobs that do not specify stage:
+  - deploy
+
+.apt-template: &apt-template
   variables:
-    SSH_KEY: /root/.ssh/id_ed25519
-    GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"
     DEBIAN_FRONTEND: noninteractive
     LANG: C.UTF-8
   before_script:
@@ -22,6 +27,44 @@ pages:
     - apt-get install ca-certificates
     - rm /etc/apt/apt.conf.d/99nocacertificates
     - apt-get dist-upgrade
+
+black:
+  stage: lint
+  <<: *apt-template
+  script:
+    - apt-get install black
+    - black --skip-string-normalization --check --diff --color $CI_PROJECT_DIR
+
+json:
+  stage: lint
+  <<: *apt-template
+  script:
+    - apt-get install python3
+    - for f in *.json; do set -x; python3 -m json.tool $f; done
+
+pylint:
+  stage: lint
+  <<: *apt-template
+  script:
+    - apt-get install
+        pylint
+        python3-apt
+        python3-colorama
+        python3-debian
+        python3-git
+        python3-gitlab
+        python3-packaging
+        python3-pylint-gitlab
+        python3-requests
+    - pylint --output-format=colorized,pylint_gitlab.GitlabCodeClimateReporter:pylint-report.json *.py
+  artifacts:
+    reports:
+      codequality: pylint-report.json
+    when: always
+
+pages:
+  stage: deploy
+  <<: *apt-template
   script:
     - apt-get install
         git
