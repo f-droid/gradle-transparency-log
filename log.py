@@ -39,6 +39,14 @@ if r.status_code != 200:
     sys.exit()
 data = []
 
+# include old entries of the Debian package
+# get all entries from the Debian package
+debian_entries = []
+with open('all.json', encoding='utf8') as fp:
+    for d in json.load(fp):
+        if 'packageFileName' in d:
+            debian_entries.append(d)
+
 checksums = dict()
 if os.path.exists('checksums.json'):
     with open('checksums.json') as fp:
@@ -107,6 +115,9 @@ if package:
                 d['url'] = package.candidate.uri
                 d['version'] = package.candidate.version
                 data.append(d)
+    for de in debian_entries:
+        if de['packageSha256'] != package.candidate.sha256:
+            data.append(de)
     write_json(data, 'all.json')
     write_json(checksums, 'checksums.json')
     # clean up to avoid it being included in git auto-committing
