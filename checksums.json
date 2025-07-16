@@ -6149,6 +6149,11 @@
       "sha256": "4a0c3870e39471bff071dd4d5d8c6f04f5da1fb36e2897516f3a7b110a2514e4"
     }
   ],
+  "libgradle-core-java_4.4.1-22_all.deb:usr/share/java/gradle-wrapper-4.4.1.jar": [
+    {
+      "sha256": "3f4516ffdd8dadec0eb1a631a6fedb994f8166c30f791a4b6401e5b9cba92858"
+    }
+  ],
   "libgradle-core-java_4.4.1-6_all.deb:usr/share/java/gradle-wrapper-4.4.1.jar": [
     {
       "sha256": "51d6ef32a8f2a4b128d6930716a34f0840111b521860c034682c61dd0c700793"
