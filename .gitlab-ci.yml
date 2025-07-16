@@ -21,7 +21,7 @@ pages:
     - ./log.py
     - test -d public || mkdir public
     - cp *.json public/
-    - pandoc --standalone README.md > public/index.html
+    - pandoc --standalone --title-prefix="$CI_PROJECT_TITLE" README.md > public/index.html
     - git diff
     - git config user.name "$CI_PIPELINE_ID/$CI_JOB_ID"
     - git config user.email $CI_PROJECT_PATH@f-droid.org
