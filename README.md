@@ -4,7 +4,7 @@
 This is an automated log of the gradle binaries and their checksums as
 posted on:
 
-https://gradle.org/release-checksums/
+<https://gradle.org/release-checksums/>
 
 This serves as a basic [binary transparency](https://wiki.mozilla.org/Security/Binary_Transparency) append-only log for anyone to use
 

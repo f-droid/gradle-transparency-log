@@ -1,8 +1,13 @@
-pages:
-  image: debian:bullseye-slim
+---
+image: debian:trixie-slim
+
+stages:
+  - lint
+  - test  # default for jobs that do not specify stage:
+  - deploy
+
+.apt-template: &apt-template
   variables:
-    SSH_KEY: /root/.ssh/id_ed25519
-    GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"
     DEBIAN_FRONTEND: noninteractive
     LANG: C.UTF-8
   before_script:
@@ -14,26 +19,97 @@ pages:
            'Dpkg::Use-Pty "0";'
            'quiet "1";'
         >> /etc/apt/apt.conf.d/99gitlab
+    # Ubuntu and other distros often lack https:// support
+    - grep Debian /etc/issue.net
+        && { find /etc/apt/sources.list* -type f | xargs sed -i s,http:,https:, ; }
+    - echo 'Acquire::https::Verify-Peer "false";' > /etc/apt/apt.conf.d/99nocacertificates
     - apt-get update
+    - apt-get install ca-certificates
+    - rm /etc/apt/apt.conf.d/99nocacertificates
     - apt-get dist-upgrade
+
+black:
+  stage: lint
+  <<: *apt-template
   script:
-    - apt-get install git openssh-client pandoc python3-apt python3-debian python3-requests
+    - apt-get install black
+    - black --skip-string-normalization --check --diff --color $CI_PROJECT_DIR
+
+json:
+  stage: lint
+  <<: *apt-template
+  script:
+    - apt-get install python3
+    - for f in *.json; do set -x; python3 -m json.tool $f; done
+
+pylint:
+  stage: lint
+  <<: *apt-template
+  script:
+    - apt-get install
+        pylint
+        python3-apt
+        python3-colorama
+        python3-debian
+        python3-git
+        python3-gitlab
+        python3-packaging
+        python3-pylint-gitlab
+        python3-requests
+    - pylint --output-format=colorized,pylint_gitlab.GitlabCodeClimateReporter:pylint-report.json *.py
+  artifacts:
+    reports:
+      codequality: pylint-report.json
+    when: always
+
+pages:
+  stage: deploy
+  <<: *apt-template
+  script:
+    - apt-get install
+        git
+        openssh-client
+        pandoc
+        python3-apt
+        python3-colorama
+        python3-debian
+        python3-git
+        python3-gitlab
+        python3-packaging
+        python3-requests
     - ./log.py
     - test -d public || mkdir public
     - cp *.json public/
-    - pandoc --standalone README.md > public/index.html
+    - pandoc --standalone --title-prefix="$CI_PROJECT_TITLE" README.md > public/index.html
     - git diff
     - git config user.name "$CI_PIPELINE_ID/$CI_JOB_ID"
     - git config user.email $CI_PROJECT_PATH@f-droid.org
     - git checkout -B autocommit
     - git add sha256/*.sha256 *.json
     - git commit sha256/*.sha256 *.json -m "From $CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0
-    - mkdir -pvm 0700 $(dirname $SSH_KEY)
-    - cp .known_hosts $(dirname $SSH_KEY)/known_hosts
-    - echo $DEPLOY_KEY | base64 --decode > $SSH_KEY
-    - chmod 0400 $SSH_KEY
+
+    # This job needs two GitLab Deploy Keys, one for each repo it
+    # pushes to, because GitLab does not allow sharing Deploy Keys
+    # across projects that are not in the same group.
+    - export SSH_DIR="/root/.ssh"
+    - mkdir -pvm 0700 $SSH_DIR
+    - cp .known_hosts $SSH_DIR/known_hosts
+    - echo $FDROID_GRADLE_DEPLOY_KEY | base64 --decode
+        > $SSH_DIR/fdroid_gradle-transparency-log_id_ed25519
+    - echo $FDROID_BOT_FDROIDSERVER_DEPLOY_KEY | base64 --decode
+        > $SSH_DIR/fdroid-bot_fdroidserver_id_ed25519
+    - chmod 0400 $SSH_DIR/*id_ed25519
+
+    - export GIT_SSH_COMMAND="/usr/bin/ssh -i $SSH_DIR/fdroid_gradle-transparency-log_id_ed25519"
     - git remote set-url --push origin "git@${CI_SERVER_HOST}:${CI_PROJECT_PATH}.git"
     - git push origin autocommit:$CI_COMMIT_REF_NAME
+
+    # make merge request to fdroid/fdroidserver
+    - git clone --depth 1 https://${CI_SERVER_HOST}/fdroid/fdroidserver.git
+    - cd fdroidserver
+    - git remote set-url origin "git@${CI_SERVER_HOST}:fdroid-bot/fdroidserver.git"
+    - export GIT_SSH_COMMAND="/usr/bin/ssh -i $SSH_DIR/fdroid-bot_fdroidserver_id_ed25519"
+    - ../gradle-release-checksums.py
   artifacts:
     paths:
       - public

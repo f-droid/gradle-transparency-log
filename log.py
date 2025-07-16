@@ -11,12 +11,15 @@ import requests
 import sys
 import time
 
+
 def write_status_codes(l):
-    write_json(sorted(status_codes), 'status_codes.json')
+    write_json(sorted(l), 'status_codes.json')
+
 
 def write_json(l, f):
-    with open(f, 'w') as fp:
+    with open(f, 'w', encoding='utf8') as fp:
         json.dump(l, fp, indent=2, sort_keys=True)
+
 
 def add_checksums_entry(checksums, k, sha256):
     if k not in checksums:
@@ -39,9 +42,17 @@ if r.status_code != 200:
     sys.exit()
 data = []
 
+# include old entries of the Debian package
+# get all entries from the Debian package
+debian_entries = []
+with open('all.json', encoding='utf8') as fp:
+    for d in json.load(fp):
+        if 'packageFileName' in d:
+            debian_entries.append(d)
+
 checksums = dict()
 if os.path.exists('checksums.json'):
-    with open('checksums.json') as fp:
+    with open('checksums.json', encoding='utf8') as fp:
         checksums = json.load(fp)
 
 for i in r.json():
@@ -51,7 +62,11 @@ for i in r.json():
 write_json(data, 'all.json')
 
 for i in data:
-    for url in (i.get('checksumUrl'), i.get('wrapperChecksumUrl'), i['downloadUrl'][:-7] + 'all.zip.sha256'):
+    for url in (
+        i.get('checksumUrl'),
+        i.get('wrapperChecksumUrl'),
+        i['downloadUrl'][:-7] + 'all.zip.sha256',
+    ):
         if not url:
             continue
         print(url)
@@ -65,7 +80,8 @@ for i in data:
         status_codes.append([url, r.status_code])
         if r.status_code == 200:
             sha256 = r.text.strip().lower()
-            with open(os.path.join('sha256', os.path.basename(url)), 'w') as fp:
+            sha256_file = os.path.join('sha256', os.path.basename(url))
+            with open(sha256_file, 'w', encoding='utf8') as fp:
                 fp.write(sha256)
             add_checksums_entry(checksums, url[:-7], sha256)
         write_status_codes(status_codes)
@@ -82,8 +98,9 @@ if package:
     deb = debian.debfile.DebFile(packageFileName)
     for filepath, listed_md5 in deb.md5sums().items():
         filepath = filepath.decode()
-        if filepath.startswith('usr/share/java/gradle-wrapper') \
-           and filepath.endswith('.jar'):
+        if filepath.startswith('usr/share/java/gradle-wrapper') and filepath.endswith(
+            '.jar'
+        ):
             d = dict()
             md5_hasher = hashlib.md5()
             sha256_hasher = hashlib.sha256()
@@ -94,7 +111,11 @@ if package:
             sha256_hasher.update(content)
             sha256 = binascii.hexlify(sha256_hasher.digest()).decode()
             if listed_md5 == md5:
-                add_checksums_entry(checksums, os.path.basename(packageFileName) + ':' + filepath, sha256)
+                add_checksums_entry(
+                    checksums,
+                    os.path.basename(packageFileName) + ':' + filepath,
+                    sha256,
+                )
                 d['arch'] = package.architecture()
                 d['md5'] = md5
                 d['sha256'] = sha256
@@ -107,5 +128,13 @@ if package:
                 d['url'] = package.candidate.uri
                 d['version'] = package.candidate.version
                 data.append(d)
+    for de in debian_entries:
+        if de['packageSha256'] != package.candidate.sha256:
+            data.append(de)
     write_json(data, 'all.json')
     write_json(checksums, 'checksums.json')
+    # clean up to avoid it being included in git auto-committing
+    try:
+        os.remove(packageFileName)
+    except Exception as e:
+        print(packageFileName, e)
