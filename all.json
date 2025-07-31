@@ -1,6 +1,22 @@
 [
   {
-    "activeRc": true,
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20250731163512+0000",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-9.0.0-bin.zip.sha256",
+    "commitId": "328772c6bae126949610a8beb59cb227ee580241",
+    "current": true,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-9.0.0-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "9.0.0",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-9.0.0-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
     "broken": false,
     "buildTime": "20250728151002+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-9.0.0-rc-4-bin.zip.sha256",
@@ -69,7 +85,7 @@
     "buildTime": "20250704131544+0000",
     "checksumUrl": "https://services.gradle.org/distributions/gradle-8.14.3-bin.zip.sha256",
     "commitId": "e5ee1df3d88b8ca3a8074787a94f373e3090e1db",
-    "current": true,
+    "current": false,
     "downloadUrl": "https://services.gradle.org/distributions/gradle-8.14.3-bin.zip",
     "milestoneFor": "",
     "nightly": false,
