@@ -4996,6 +4996,18 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-9.2.0-milestone-2-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.2.0-milestone-2-bin.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.2.0-milestone-2-wrapper.jar.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/versions/all",
     200
   ]
