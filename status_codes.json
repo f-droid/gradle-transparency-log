@@ -2017,7 +2017,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-5.4-wrapper.jar.sha256",
-    500
+    200
   ],
   [
     "https://services.gradle.org/distributions/gradle-5.4.1-all.zip.sha256",
