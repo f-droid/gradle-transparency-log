@@ -885,7 +885,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.3-wrapper.jar.sha256",
-    200
+    500
   ],
   [
     "https://services.gradle.org/distributions/gradle-2.4-all.zip.sha256",
