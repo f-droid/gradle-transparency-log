@@ -5080,6 +5080,14 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-9.3.0-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.3.0-bin.zip.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-9.3.0-milestone-1-all.zip.sha256",
     200
   ],
@@ -5137,6 +5145,10 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-9.3.0-rc-3-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.3.0-wrapper.jar.sha256",
     200
   ],
   [
