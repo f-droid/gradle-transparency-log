@@ -4312,6 +4312,18 @@
     200
   ],
   [
+    "https://services.gradle.org/distributions/gradle-8.14.4-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-8.14.4-wrapper.jar.sha256",
+    200
+  ],
+  [
     "https://services.gradle.org/distributions/gradle-8.2-all.zip.sha256",
     200
   ],
@@ -5197,6 +5209,18 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-9.4.0-milestone-4-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.4.0-milestone-5-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.4.0-milestone-5-bin.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.4.0-milestone-5-wrapper.jar.sha256",
     200
   ],
   [
