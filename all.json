@@ -1,5 +1,41 @@
 [
   {
+    "activeRc": true,
+    "broken": false,
+    "buildTime": "20260227092055+0000",
+    "checksum": "1386475e18bc4b8f885d9573b1194b44462e7ab2b9afb6d70ad9f39cdfaf2d6e",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-9.4.0-rc-2-bin.zip.sha256",
+    "commitId": "b5fe9efed6cae7b9f2fbdb2d380fb69af16bb752",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-9.4.0-rc-2-bin.zip",
+    "milestoneFor": "",
+    "nightly": false,
+    "rcFor": "9.4.0",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "9.4.0-rc-2",
+    "wrapperChecksum": "55243ef57851f12b070ad14f7f5bb8302daceeebc5bce5ece5fa6edb23e1145c",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-9.4.0-rc-2-wrapper.jar.sha256"
+  },
+  {
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20260227090120+0000",
+    "checksum": "1bacc1c689e2c1e109208ce941a7695d2edeba5cbfc4bc2a99524147c02e6e35",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-9.5.0-milestone-5-bin.zip.sha256",
+    "commitId": "7928ff898563f1f324eb29a5b1d40d43798fe992",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-9.5.0-milestone-5-bin.zip",
+    "milestoneFor": "9.5.0",
+    "nightly": false,
+    "rcFor": "",
+    "releaseNightly": false,
+    "snapshot": false,
+    "version": "9.5.0-milestone-5",
+    "wrapperChecksum": "55243ef57851f12b070ad14f7f5bb8302daceeebc5bce5ece5fa6edb23e1145c",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-9.5.0-milestone-5-wrapper.jar.sha256"
+  },
+  {
     "activeRc": false,
     "broken": false,
     "buildTime": "20260226092909+0000",
@@ -54,7 +90,7 @@
     "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-9.5.0-milestone-2-wrapper.jar.sha256"
   },
   {
-    "activeRc": true,
+    "activeRc": false,
     "broken": false,
     "buildTime": "20260208025655+0000",
     "checksum": "2341e5f62ce4ce9d1f51395b47428a6d53e972bc0a3f9d2bf2da5a294610c703",
