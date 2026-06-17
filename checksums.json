@@ -6919,6 +6919,21 @@
       "sha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7"
     }
   ],
+  "https://services.gradle.org/distributions/gradle-9.7.0-milestone-1-all.zip": [
+    {
+      "sha256": "39e8b013bc13f57cab7b79ae50f7b2ffce83802f7ac50583aa1d001241747e94"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-9.7.0-milestone-1-bin.zip": [
+    {
+      "sha256": "cca479af418ddb4bf6012f18369e4f40735b075dc87fb66722adaace6a97c982"
+    }
+  ],
+  "https://services.gradle.org/distributions/gradle-9.7.0-milestone-1-wrapper.jar": [
+    {
+      "sha256": "8a23bf708fd4e02674e77fb34b0fa7c02f0d53c2ad377385ab507422313d26d1"
+    }
+  ],
   "libgradle-core-java_4.4.1-13_all.deb:usr/share/java/gradle-wrapper-4.4.1.jar": [
     {
       "sha256": "fa8804b017a549d33ba270475fea86d46218c73cc47b32008ada4f8380e0f60b"
