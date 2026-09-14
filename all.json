@@ -1,5 +1,27 @@
 [
   {
+    "activeRc": false,
+    "broken": false,
+    "buildTime": "20260914095628+0000",
+    "checksum": "02a489990c9e6fda47e8ba083b61870b07178e3078d54af7fc1c096fc2f49353",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-9.9.0-milestone-1-bin.zip.sha256",
+    "commitId": "0f58e631c43b1e07f9a5967676fe562b1dcf9cbc",
+    "current": false,
+    "downloadUrl": "https://services.gradle.org/distributions/gradle-9.9.0-milestone-1-bin.zip",
+    "final": false,
+    "milestoneFor": "9.9.0",
+    "nightly": false,
+    "publicationSlot": "9.9.0-milestone-1",
+    "rcFor": "",
+    "releaseNightly": false,
+    "released": true,
+    "releasedOrActiveRc": true,
+    "snapshot": false,
+    "version": "9.9.0-milestone-1",
+    "wrapperChecksum": "238e777fcddd7e34f9708186085def2abd6e08e658505b38718d79d74c21abd5",
+    "wrapperChecksumUrl": "https://services.gradle.org/distributions/gradle-9.9.0-milestone-1-wrapper.jar.sha256"
+  },
+  {
     "activeRc": true,
     "broken": false,
     "buildTime": "20260908115941+0000",
