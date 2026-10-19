@@ -3005,7 +3005,7 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.9.2-all.zip.sha256",
-    200
+    502
   ],
   [
     "https://services.gradle.org/distributions/gradle-6.9.2-bin.zip.sha256",
@@ -5737,6 +5737,18 @@
   ],
   [
     "https://services.gradle.org/distributions/gradle-9.8.1-wrapper.jar.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.8.2-all.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.8.2-bin.zip.sha256",
+    200
+  ],
+  [
+    "https://services.gradle.org/distributions/gradle-9.8.2-wrapper.jar.sha256",
     200
   ],
   [
